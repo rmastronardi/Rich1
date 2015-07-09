@@ -24,9 +24,9 @@
                       </block>
                     </value>
                     <next>
-                      <block type="movement_left" id="28">
+                      <block type="movement_left" id="9">
                         <next>
-                          <block type="movement_stop" id="9"></block>
+                          <block type="movement_stop" id="10"></block>
                         </next>
                       </block>
                     </next>
