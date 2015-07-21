@@ -28,7 +28,12 @@
                         <next>
                           <block type="movement_forward" id="10">
                             <next>
-                              <block type="movement_stop" id="11"></block>
+                              <block type="multimedia_playwav" id="71">
+                                <field name="WAV"></field>
+                                <next>
+                                  <block type="movement_stop" id="11"></block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
