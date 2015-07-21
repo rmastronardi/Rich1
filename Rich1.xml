@@ -39,12 +39,7 @@
       </block>
     </statement>
     <next>
-      <block type="multimedia_playwav" id="71">
-        <field name="WAV"></field>
-        <next>
-          <block type="movement_stop" id="11"></block>
-        </next>
-      </block>
+      <block type="movement_stop" id="11"></block>
     </next>
   </block>
 </xml>
