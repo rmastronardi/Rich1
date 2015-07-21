@@ -26,16 +26,7 @@
                     <next>
                       <block type="movement_left" id="9">
                         <next>
-                          <block type="movement_forward" id="10">
-                            <next>
-                              <block type="multimedia_playwav" id="71">
-                                <field name="WAV"></field>
-                                <next>
-                                  <block type="movement_stop" id="11"></block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
+                          <block type="movement_forward" id="10"></block>
                         </next>
                       </block>
                     </next>
@@ -47,5 +38,13 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="multimedia_playwav" id="71">
+        <field name="WAV"></field>
+        <next>
+          <block type="movement_stop" id="11"></block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
